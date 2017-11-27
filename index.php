@@ -12,10 +12,10 @@
     error_reporting(E_ALL);
 
     //Defining autoload function to attempt to load undefined class
-        function autoloader_class($class) {
-            $class = str_replace ('\\', '/', $class) . '.php';
-            include ($class);
-        }
+    function autoloader_class($class) {
+        $class = str_replace ('\\', '/', $class) . '.php';
+        include ($class);
+    }
 
     spl_autoload_register('autoloader_class');
 
