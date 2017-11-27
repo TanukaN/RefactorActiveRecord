@@ -1,4 +1,1 @@
 # RefactorActiveRecord
-# RefactorActiveRecord
-# RefactorActiveRecord
-# RefactorActiveRecord
